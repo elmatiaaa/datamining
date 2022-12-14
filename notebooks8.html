@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Tugas 3 (Implementasi K-NN) &#8212; Tugas Data Mining</title>
+    <title>Ensemble learning adalah paradigma pembelajaran mesin di mana banyak pelajar dilatih untuk memecahkan masalah yang sama. Berbeda dengan pendekatan pembelajaran mesin biasa yang mencoba mempelajari satu hipotesis dari data pelatihan, metode ansambel mencoba membangun serangkaian hipotesis dan menggabungkannya untuk digunakan. &#8212; Tugas Data Mining</title>
     
   <!-- Loaded before other Sphinx assets -->
   <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
@@ -52,8 +52,7 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Tugas 4 (Naive Bayes Classifier)" href="notebooks4.html" />
-    <link rel="prev" title="Tugas 2 (Diskritisasi)" href="notebooks2.html" />
+    <link rel="prev" title="Tugas 7 (Credit Risk Modelling)" href="notebooks7.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -124,8 +123,8 @@ const thebe_selector_output = ".output, .cell_output"
    Tugas 2 (Diskritisasi)
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="notebooks3.html">
    Tugas 3 (Implementasi K-NN)
   </a>
  </li>
@@ -154,8 +153,8 @@ const thebe_selector_output = ".output, .cell_output"
    Tugas 7 (Credit Risk Modelling)
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="notebooks8.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Ensemble learning adalah paradigma pembelajaran mesin di mana banyak pelajar dilatih untuk memecahkan masalah yang sama. Berbeda dengan pendekatan pembelajaran mesin biasa yang mencoba mempelajari satu hipotesis dari data pelatihan, metode ansambel mencoba membangun serangkaian hipotesis dan menggabungkannya untuk digunakan.
   </a>
  </li>
@@ -218,7 +217,7 @@ title="Toggle navigation"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="https://mybinder.org/v2/gh/elmatiaaa/datamining.git/master?urlpath=tree/docs/notebooks3.ipynb"
+        <a href="https://mybinder.org/v2/gh/elmatiaaa/datamining.git/master?urlpath=tree/docs/notebooks8.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -278,7 +277,7 @@ title="Source repository"
       </li>
       
       <li>
-        <a href="https://github.com/elmatiaaa/datamining.git/issues/new?title=Issue%20on%20page%20%2Fnotebooks3.html&body=Your%20issue%20content%20here."
+        <a href="https://github.com/elmatiaaa/datamining.git/issues/new?title=Issue%20on%20page%20%2Fnotebooks8.html&body=Your%20issue%20content%20here."
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -306,7 +305,7 @@ title="Open an issue"
   <div class="menu-dropdown__content">
     <ul>
       <li>
-        <a href="_sources/notebooks3.ipynb"
+        <a href="_sources/notebooks8.ipynb"
    class="headerbtn"
    data-toggle="tooltip"
 data-placement="left"
@@ -343,23 +342,70 @@ title="Print to PDF"
     </ul>
   </div>
 </div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
 
     </div>
 </div>
 
 <!-- Table of contents -->
 <div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Ensemble learning adalah paradigma pembelajaran mesin di mana banyak pelajar dilatih untuk memecahkan masalah yang sama. Berbeda dengan pendekatan pembelajaran mesin biasa yang mencoba mempelajari satu hipotesis dari data pelatihan, metode ansambel mencoba membangun serangkaian hipotesis dan menggabungkannya untuk digunakan.
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#bagging">
+   Bagging
+  </a>
+ </li>
+</ul>
+
+    </nav>
 </div>
     </div>
     <div class="article row">
         <div class="col pl-md-3 pl-lg-5 content-container">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Tugas 3 (Implementasi K-NN)</h1>
+                <h1>Ensemble learning adalah paradigma pembelajaran mesin di mana banyak pelajar dilatih untuk memecahkan masalah yang sama. Berbeda dengan pendekatan pembelajaran mesin biasa yang mencoba mempelajari satu hipotesis dari data pelatihan, metode ansambel mencoba membangun serangkaian hipotesis dan menggabungkannya untuk digunakan.</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Ensemble learning adalah paradigma pembelajaran mesin di mana banyak pelajar dilatih untuk memecahkan masalah yang sama. Berbeda dengan pendekatan pembelajaran mesin biasa yang mencoba mempelajari satu hipotesis dari data pelatihan, metode ansambel mencoba membangun serangkaian hipotesis dan menggabungkannya untuk digunakan.
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#bagging">
+   Bagging
+  </a>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -367,33 +413,43 @@ title="Print to PDF"
                 
               <div>
                 
-  <section class="tex2jax_ignore mathjax_ignore" id="tugas-3-implementasi-k-nn">
-<h1>Tugas 3 (Implementasi K-NN)<a class="headerlink" href="#tugas-3-implementasi-k-nn" title="Permalink to this headline">#</a></h1>
+  <div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Tugas 8 (Ensembel Learning)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section class="tex2jax_ignore mathjax_ignore" id="ensemble-learning-adalah-paradigma-pembelajaran-mesin-di-mana-banyak-pelajar-dilatih-untuk-memecahkan-masalah-yang-sama-berbeda-dengan-pendekatan-pembelajaran-mesin-biasa-yang-mencoba-mempelajari-satu-hipotesis-dari-data-pelatihan-metode-ansambel-mencoba-membangun-serangkaian-hipotesis-dan-menggabungkannya-untuk-digunakan">
+<h1>Ensemble learning adalah paradigma pembelajaran mesin di mana banyak pelajar dilatih untuk memecahkan masalah yang sama. Berbeda dengan pendekatan pembelajaran mesin biasa yang mencoba mempelajari satu hipotesis dari data pelatihan, metode ansambel mencoba membangun serangkaian hipotesis dan menggabungkannya untuk digunakan.<a class="headerlink" href="#ensemble-learning-adalah-paradigma-pembelajaran-mesin-di-mana-banyak-pelajar-dilatih-untuk-memecahkan-masalah-yang-sama-berbeda-dengan-pendekatan-pembelajaran-mesin-biasa-yang-mencoba-mempelajari-satu-hipotesis-dari-data-pelatihan-metode-ansambel-mencoba-membangun-serangkaian-hipotesis-dan-menggabungkannya-untuk-digunakan" title="Permalink to this headline">#</a></h1>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">sklearn.tree</span> <span class="kn">import</span> <span class="n">DecisionTreeClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.ensemble</span> <span class="kn">import</span> <span class="n">RandomForestClassifier</span><span class="p">,</span> <span class="n">BaggingClassifier</span><span class="p">,</span> <span class="n">AdaBoostClassifier</span><span class="p">,</span> <span class="n">VotingClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="kn">from</span> <span class="nn">sklearn.svm</span> <span class="kn">import</span> <span class="n">SVC</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dataset_url</span><span class="o">=</span><span class="s2">&quot;https://raw.githubusercontent.com/elmatiaaa/Tugas-1/main/diabetes.csv&quot;</span>
-<span class="n">data</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">dataset_url</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;https://raw.githubusercontent.com/08-Ahlaqul-Karimah/machine-Learning/main/mnist_test.csv&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">data</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-74bc9f1f-0782-435d-8611-27f77d903e39">
+  <div id="df-19961d07-b99f-4750-84b0-847830d99139">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -413,154 +469,155 @@ title="Print to PDF"
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Glucose</th>
-      <th>BloodPressure</th>
-      <th>SkinThickness</th>
-      <th>Insulin</th>
-      <th>BMI</th>
-      <th>DiabetesPedigreeFunction</th>
-      <th>Age</th>
-      <th>Outcome</th>
-    </tr>
-    <tr>
-      <th>Pregnancies</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th>label</th>
+      <th>1x1</th>
+      <th>1x2</th>
+      <th>1x3</th>
+      <th>1x4</th>
+      <th>1x5</th>
+      <th>1x6</th>
+      <th>1x7</th>
+      <th>1x8</th>
+      <th>1x9</th>
+      <th>...</th>
+      <th>28x19</th>
+      <th>28x20</th>
+      <th>28x21</th>
+      <th>28x22</th>
+      <th>28x23</th>
+      <th>28x24</th>
+      <th>28x25</th>
+      <th>28x26</th>
+      <th>28x27</th>
+      <th>28x28</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>6</th>
-      <td>148</td>
-      <td>72</td>
-      <td>35</td>
-      <td>0</td>
-      <td>33.6</td>
-      <td>0.627</td>
-      <td>50</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>85</td>
-      <td>66</td>
-      <td>29</td>
-      <td>0</td>
-      <td>26.6</td>
-      <td>0.351</td>
-      <td>31</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>183</td>
-      <td>64</td>
-      <td>0</td>
-      <td>0</td>
-      <td>23.3</td>
-      <td>0.672</td>
-      <td>32</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>89</td>
-      <td>66</td>
-      <td>23</td>
-      <td>94</td>
-      <td>28.1</td>
-      <td>0.167</td>
-      <td>21</td>
-      <td>0</td>
-    </tr>
-    <tr>
       <th>0</th>
-      <td>137</td>
-      <td>40</td>
-      <td>35</td>
-      <td>168</td>
-      <td>43.1</td>
-      <td>2.288</td>
-      <td>33</td>
-      <td>1</td>
+      <td>7</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
-      <th>...</th>
+      <th>1</th>
+      <td>2</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>101</td>
-      <td>76</td>
-      <td>48</td>
-      <td>180</td>
-      <td>32.9</td>
-      <td>0.171</td>
-      <td>63</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>122</td>
-      <td>70</td>
-      <td>27</td>
-      <td>0</td>
-      <td>36.8</td>
-      <td>0.340</td>
-      <td>27</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>121</td>
-      <td>72</td>
-      <td>23</td>
-      <td>112</td>
-      <td>26.2</td>
-      <td>0.245</td>
-      <td>30</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>126</td>
-      <td>60</td>
-      <td>0</td>
-      <td>0</td>
-      <td>30.1</td>
-      <td>0.349</td>
-      <td>47</td>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>93</td>
-      <td>70</td>
-      <td>31</td>
+      <th>3</th>
       <td>0</td>
-      <td>30.4</td>
-      <td>0.315</td>
-      <td>23</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>4</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>...</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
     </tr>
   </tbody>
 </table>
-<p>768 rows × 8 columns</p>
+<p>5 rows × 785 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-74bc9f1f-0782-435d-8611-27f77d903e39')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-19961d07-b99f-4750-84b0-847830d99139')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -611,12 +668,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-74bc9f1f-0782-435d-8611-27f77d903e39 button.colab-df-convert');
+          document.querySelector('#df-19961d07-b99f-4750-84b0-847830d99139 button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-74bc9f1f-0782-435d-8611-27f77d903e39');
+          const element = document.querySelector('#df-19961d07-b99f-4750-84b0-847830d99139');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -639,29 +696,13 @@ title="Print to PDF"
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#check number of rows and columns in dataset</span>
-<span class="n">data</span><span class="o">.</span><span class="n">shape</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(768, 8)
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#create a dataframe with all training data except the target column</span>
-<span class="n">X</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;Outcome&#39;</span><span class="p">])</span>
-<span class="c1">#check that the target variable has been removed</span>
-<span class="n">X</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-aad42866-44d7-4acc-9014-9f1eca5966fd">
+  <div id="df-d3b23e35-c9eb-40fe-a049-67c7ed47108d">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -681,80 +722,227 @@ title="Print to PDF"
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>Glucose</th>
-      <th>BloodPressure</th>
-      <th>SkinThickness</th>
-      <th>Insulin</th>
-      <th>BMI</th>
-      <th>DiabetesPedigreeFunction</th>
-      <th>Age</th>
-    </tr>
-    <tr>
-      <th>Pregnancies</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th>label</th>
+      <th>1x1</th>
+      <th>1x2</th>
+      <th>1x3</th>
+      <th>1x4</th>
+      <th>1x5</th>
+      <th>1x6</th>
+      <th>1x7</th>
+      <th>1x8</th>
+      <th>1x9</th>
+      <th>...</th>
+      <th>28x19</th>
+      <th>28x20</th>
+      <th>28x21</th>
+      <th>28x22</th>
+      <th>28x23</th>
+      <th>28x24</th>
+      <th>28x25</th>
+      <th>28x26</th>
+      <th>28x27</th>
+      <th>28x28</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>6</th>
-      <td>148</td>
-      <td>72</td>
-      <td>35</td>
-      <td>0</td>
-      <td>33.6</td>
-      <td>0.627</td>
-      <td>50</td>
+      <th>count</th>
+      <td>10000.000000</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>...</td>
+      <td>10000.000000</td>
+      <td>10000.000000</td>
+      <td>10000.000000</td>
+      <td>10000.0000</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
+      <td>10000.0</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>85</td>
-      <td>66</td>
-      <td>29</td>
-      <td>0</td>
-      <td>26.6</td>
-      <td>0.351</td>
-      <td>31</td>
+      <th>mean</th>
+      <td>4.443400</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.179300</td>
+      <td>0.163600</td>
+      <td>0.052600</td>
+      <td>0.0006</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
     </tr>
     <tr>
-      <th>8</th>
-      <td>183</td>
-      <td>64</td>
-      <td>0</td>
-      <td>0</td>
-      <td>23.3</td>
-      <td>0.672</td>
-      <td>32</td>
+      <th>std</th>
+      <td>2.895865</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>5.674149</td>
+      <td>5.736072</td>
+      <td>2.420004</td>
+      <td>0.0600</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
     </tr>
     <tr>
-      <th>1</th>
-      <td>89</td>
-      <td>66</td>
-      <td>23</td>
-      <td>94</td>
-      <td>28.1</td>
-      <td>0.167</td>
-      <td>21</td>
+      <th>min</th>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
     </tr>
     <tr>
-      <th>0</th>
-      <td>137</td>
-      <td>40</td>
-      <td>35</td>
-      <td>168</td>
-      <td>43.1</td>
-      <td>2.288</td>
-      <td>33</td>
+      <th>25%</th>
+      <td>2.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>4.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>7.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.0000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>9.000000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>...</td>
+      <td>253.000000</td>
+      <td>253.000000</td>
+      <td>156.000000</td>
+      <td>6.0000</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
     </tr>
   </tbody>
 </table>
+<p>8 rows × 785 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-aad42866-44d7-4acc-9014-9f1eca5966fd')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-d3b23e35-c9eb-40fe-a049-67c7ed47108d')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -805,12 +993,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-aad42866-44d7-4acc-9014-9f1eca5966fd button.colab-df-convert');
+          document.querySelector('#df-d3b23e35-c9eb-40fe-a049-67c7ed47108d button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-aad42866-44d7-4acc-9014-9f1eca5966fd');
+          const element = document.querySelector('#df-d3b23e35-c9eb-40fe-a049-67c7ed47108d');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -833,145 +1021,136 @@ title="Print to PDF"
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#separate target values</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;Outcome&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
-<span class="c1">#view target values</span>
-<span class="n">y</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">df</span><span class="o">.</span><span class="n">shape</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([1, 0, 1, 0, 1])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>(10000, 785)
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
-<span class="c1">#split dataset into train and test data</span>
-<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">stratify</span><span class="o">=</span><span class="n">y</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">xtr</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">1</span><span class="p">:]</span>
+<span class="n">ytr</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span>
+
+<span class="n">xtst</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">1</span><span class="p">:]</span>
+<span class="n">ytst</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
-<span class="c1"># Create KNN classifier</span>
-<span class="n">knn</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_neighbors</span> <span class="o">=</span> <span class="mi">3</span><span class="p">)</span>
-<span class="c1"># Fit the classifier to the data</span>
-<span class="n">knn</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span><span class="n">y_train</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#decision tree</span>
+<span class="n">classifier</span> <span class="o">=</span> <span class="n">DecisionTreeClassifier</span><span class="p">()</span>
+<span class="n">classifier</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">xtr</span><span class="p">,</span><span class="n">ytr</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>KNeighborsClassifier(n_neighbors=3)
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>DecisionTreeClassifier()
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#show first 5 model predictions on the test data</span>
-<span class="n">knn</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)[</span><span class="mi">0</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">classifier</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">xtr</span><span class="p">,</span><span class="n">ytr</span><span class="p">)</span>  <span class="c1">#Overfitting</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([0, 0, 0, 0, 1])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1.0
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#check accuracy of our model on the test data</span>
-<span class="n">knn</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span>
+<span class="n">pred</span> <span class="o">=</span> <span class="n">classifier</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">xtst</span><span class="p">)</span>
+<span class="n">accuracy_score</span><span class="p">(</span><span class="n">pred</span><span class="p">,</span><span class="n">ytst</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.6688311688311688
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>1.0
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">cross_val_score</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="c1">#create a new KNN model</span>
-<span class="n">knn_cv</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
-<span class="c1">#train model with cv of 5 </span>
-<span class="n">cv_scores</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">knn_cv</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
-<span class="c1">#print each cv score (accuracy) and average them</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">cv_scores</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Ensemble</span>
+
+<span class="c1">#Random Forest  -  Combination of various Decision tree</span>
+<span class="n">rf</span> <span class="o">=</span> <span class="n">RandomForestClassifier</span><span class="p">(</span><span class="n">n_estimators</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span>
+<span class="n">rf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">xtr</span><span class="p">,</span><span class="n">ytr</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0.68181818 0.70779221 0.75324675 0.76470588 0.69281046]
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>RandomForestClassifier(n_estimators=10)
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;cv_scores mean:</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">cv_scores</span><span class="p">)))</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rf</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">xtr</span><span class="p">,</span><span class="n">ytr</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>cv_scores mean:0.7200746965452847
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.9992
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="bagging">
+<h1>Bagging<a class="headerlink" href="#bagging" title="Permalink to this headline">#</a></h1>
+<p>Bagging adalah singkatan dari “bootstrap aggregating”. Ini adalah meta-algoritma, yang mengambil M subsampel (dengan penggantian) dari dataset awal dan melatih model prediktif pada subsampel tersebut. Model akhir diperoleh dengan merata-ratakan model “bootstrapped” dan biasanya menghasilkan hasil yang lebih baik.</p>
+<p>Keuntungan utama dari teknik ini adalah menggabungkan regularisasi di dalamnya dan yang Anda butuhkan hanyalah memilih parameter yang baik untuk algoritme dasar. Rata-rata model mengarah pada penghapusan (atau, setidaknya, peningkatan) untuk model yang tidak stabil yang dapat dihasilkan dari data yang bias.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Bagging</span>
+
+<span class="n">bg</span> <span class="o">=</span> <span class="n">BaggingClassifier</span><span class="p">(</span><span class="n">DecisionTreeClassifier</span><span class="p">(),</span><span class="n">max_samples</span><span class="o">=</span><span class="mf">0.5</span><span class="p">,</span> <span class="n">max_features</span><span class="o">=</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">n_estimators</span><span class="o">=</span><span class="mi">20</span><span class="p">)</span>
+<span class="n">bg</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">xtr</span><span class="p">,</span><span class="n">ytr</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>BaggingClassifier(base_estimator=DecisionTreeClassifier(), max_samples=0.5,
+                  n_estimators=20)
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">GridSearchCV</span>
-<span class="c1">#create new a knn model</span>
-<span class="n">knn2</span> <span class="o">=</span> <span class="n">KNeighborsClassifier</span><span class="p">()</span>
-<span class="c1">#create a dictionary of all values we want to test for n_neighbors</span>
-<span class="n">param_grid</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;n_neighbors&quot;</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">25</span><span class="p">)}</span>
-<span class="c1">#use gridsearch to test all values for n_neighbors</span>
-<span class="n">knn_gscv</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">knn2</span><span class="p">,</span> <span class="n">param_grid</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
-<span class="c1">#fit model to data</span>
-<span class="n">knn_gscv</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bg</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">xtst</span><span class="p">,</span><span class="n">ytst</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>GridSearchCV(cv=5, estimator=KNeighborsClassifier(),
-             param_grid={&#39;n_neighbors&#39;: array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
-       18, 19, 20, 21, 22, 23, 24])})
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.9924
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#check top performing n_neighbors value</span>
-<span class="n">knn_gscv</span><span class="o">.</span><span class="n">best_params_</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">bg</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">xtr</span><span class="p">,</span><span class="n">ytr</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;n_neighbors&#39;: 13}
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#check mean score for the top performing value of n_neighbors</span>
-<span class="n">knn_gscv</span><span class="o">.</span><span class="n">best_score_</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.7617519735166794
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.9924
 </pre></div>
 </div>
 </div>
@@ -1005,19 +1184,12 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="notebooks2.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="notebooks7.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Tugas 2 (Diskritisasi)</p>
+            <p class="prev-next-title">Tugas 7 (Credit Risk Modelling)</p>
         </div>
-    </a>
-    <a class='right-next' id="next-link" href="notebooks4.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Tugas 4 (Naive Bayes Classifier)</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
     </a>
 </div>
             </footer>
